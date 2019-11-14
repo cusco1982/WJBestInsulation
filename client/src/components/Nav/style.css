@@ -1,9 +1,12 @@
 #contnav {
     /* position: fixed; */
     /* left: 0; */
-    /* bottom: 0; */
+    top: 0;
     width: 100%;
-    background-color: #9E1313;
+    background-color: white;
     /* color: white; */
     /* text-align: center; */
+    opacity: 90%;
+    z-index:500;
+    position: fixed;
 }
