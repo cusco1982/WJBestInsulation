@@ -26,6 +26,20 @@ const API = {
 }
 
 
+{/* <script type="text/javascript"> */}
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollpos = window.pageYOffset;
+  if(prevScrollpos > currentScrollpos) {
+    document.getElementById("contnav").style.top="0";
+  } else {
+    document.getElementById("contnav").style.top="-140px";
+  }
+  prevScrollpos=currentScrollpos;
+}
+// </script>
+
+
 
 
 class Main extends Component {
@@ -60,6 +74,8 @@ class Main extends Component {
     this.setState({ appartments: appartments })
 
   };
+
+  
 
   
   render() {

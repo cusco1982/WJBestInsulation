@@ -11,4 +11,5 @@
     opacity: 90%;
     z-index:500;
     position: fixed;
+    transition: top 0.8s;
 }
