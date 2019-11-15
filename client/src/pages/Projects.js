@@ -95,6 +95,11 @@ class Projects extends Component {
           </div>
 
         </div> */}
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
 
         <div className="project-header" id="project-header">
         <h1><strong>OUR WORK</strong></h1>

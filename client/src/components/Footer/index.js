@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 
+
 function Footer() {
     return (
-        <div class="footer-container">
+        <div class="footer-container" id="footer-container">
         <div class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular">
 
 

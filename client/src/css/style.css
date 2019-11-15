@@ -384,5 +384,9 @@ th {
     /* z-index: -100; */
     transform: translate(-38%, -10%);
   }
+  #company-info{
+    text-align: center;
+    background-color: blue
+  }
 
 }

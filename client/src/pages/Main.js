@@ -5,6 +5,8 @@ import image1 from '../images/1.jpg';
 import image2 from '../images/2.jpg';
 import image3 from '../images/3.jpg';
 import image4 from '../images/4.jpg';
+import "../css/style.css";
+// import "./style.css";
 
 
 
@@ -61,9 +63,9 @@ class Main extends Component {
 
   };
 
-  
 
-  
+
+
   render() {
     return (
       <div>
@@ -72,6 +74,7 @@ class Main extends Component {
         <div className="row1">
 
           <div className="container-fluid">
+
             <video autoPlay muted loop id="myVideo">
               <source src={video} type="video/mp4" />
             </video>
@@ -81,6 +84,15 @@ class Main extends Component {
                 <h1 className="htitle">Welcome to Advanced Property Management</h1>
               </div>
             </div>
+
+            <div id="company-info">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam exercitationem unde totam officia numquam natus quam quos quia, eius dignissimos atque velit. Repellat, vero enim officia odit culpa est a aspernatur voluptas alias, harum magni dolorum cumque optio velit mollitia facere tenetur illum rerum ratione ut recusandae, reiciendis ullam asperiores quidem. Velit aliquid labore dolores, expedita nobis, explicabo fuga facere autem, deserunt magnam debitis iure eaque saepe voluptatem ad adipisci delectus. Exercitationem nobis minus mollitia excepturi ab velit corrupti eius. Praesentium modi aliquid libero maxime doloribus suscipit tenetur enim fugit, molestiae neque in ab soluta unde nihil magnam numquam quam dolor deleniti necessitatibus molestias placeat magni labore voluptatem eos. Voluptas adipisci ex placeat temporibus blanditiis, recusandae, modi, doloribus est tenetur incidunt a dolores fugit aliquam consequatur consectetur sunt id mollitia? Voluptatem culpa illo ea? Eos excepturi sequi expedita sit fuga accusamus porro perspiciatis distinctio quia ex quod eum assumenda esse voluptatibus dolorem dolorum quas, nulla soluta maiores. Voluptatum sunt, ea amet necessitatibus voluptatibus vero natus nihil temporibus error ab quam inventore vitae laborum suscipit quasi delectus aperiam eligendi eos cumque. Laudantium cupiditate officiis quidem nobis aut, minima ducimus temporibus harum libero sit dolor accusantium assumenda ipsum, voluptates ipsa modi?
+            </p>
+            </div>
+
+
+
             <div className="content">
               <h3 className="hed3">Featured properties</h3>
 
@@ -92,6 +104,7 @@ class Main extends Component {
                 })}
               </div>
             </div>
+
           </div>
 
         </div>
