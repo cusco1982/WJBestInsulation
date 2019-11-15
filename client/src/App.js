@@ -9,6 +9,7 @@ import Admin from "./pages/Admin";
 import Tenant from "./pages/Tenant";
 import Register from "./pages/Register";
 import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 
 // import Profile from './components/Profile';
@@ -44,6 +45,8 @@ export default class App extends Component {
               <Route exact path="/Admin" component={Admin} />
               <Route exact path="/Tenant" component={Tenant} />
               <Route exact path="/Register" component={Register} />
+              <Route exact path="/Projects" component={Projects} />
+
             </Switch>
           </div>
 
