@@ -20,7 +20,7 @@ import Projects from "./pages/Projects";
 // import NotFound from './components/NotFound';
 
 
-// import "./css/style.css";
+import "./css/style.css";
 import "./css/index.js";
 // import "./components/Footer/style.css";
 
