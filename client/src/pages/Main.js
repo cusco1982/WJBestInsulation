@@ -60,6 +60,8 @@ class Main extends Component {
     this.setState({ appartments: appartments })
 
   };
+
+  
   render() {
     return (
       <div>
@@ -72,7 +74,7 @@ class Main extends Component {
               <source src={video} type="video/mp4" />
             </video>
 
-            <div className="row animated fadeInDown delay-1s">
+            <div className="row animated fadeInDown delay-1s" id="welcome-message">
               <div className="col-md-12 search">
                 <h1 className="htitle">Welcome to Advanced Property Management</h1>
               </div>

@@ -3,6 +3,19 @@ import { Link } from "react-router-dom";
 import logo from "../../images/logo.jpg";
 import "./style.css";
 
+window.onscroll = function() {
+  var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+  if (scrollTop >= document.getElementById("welcome-message").offsetTop) {
+    document.getElementById("contnav").style.position = "fixed";
+    document.getElementById("welcome-message").style.marginTop = "50px";
+    document.getElementById("contnav").style.marginTop = "-50px";
+  } else {
+    document.getElementById("contnav").style.position = "static";
+    document.getElementById("welcome-message").style.marginTop = "0px";
+    document.getElementById("contnav").style.marginTop = "0px";
+  }
+}
+
 
 
 function Nav() {
