@@ -20,6 +20,7 @@ import Footer from "./components/Footer";
 
 
 import "./css/style.css"
+import "./css/index.js"
 
 
 
