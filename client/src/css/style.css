@@ -173,10 +173,10 @@ th {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: 300px;
+  width: 9000px;
+  height: 1100px;
   z-index: -100;
-  transform: translate(-30%, 49%);
+  transform: translate(-38%, -10%);
 }
 
 .content {
