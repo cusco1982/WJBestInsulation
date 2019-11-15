@@ -59,7 +59,7 @@ export default class Tenants extends Component {
   render() {
     return (
       <div className="container-fluid imgcont">
-        <div className="row justify-content-center">
+        <div className="row justify-content-cenr">
           <div className="col-md-4 col3 animated fadeInUp slow delay">
             <div className="jumbotron tent">
               <h2>Online Portal</h2>

@@ -86,8 +86,8 @@ class Main extends Component {
             </div>
 
             <div id="company-info">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam exercitationem unde totam officia numquam natus quam quos quia, eius dignissimos atque velit. Repellat, vero enim officia odit culpa est a aspernatur voluptas alias, harum magni dolorum cumque optio velit mollitia facere tenetur illum rerum ratione ut recusandae, reiciendis ullam asperiores quidem. Velit aliquid labore dolores, expedita nobis, explicabo fuga facere autem, deserunt magnam debitis iure eaque saepe voluptatem ad adipisci delectus. Exercitationem nobis minus mollitia excepturi ab velit corrupti eius. Praesentium modi aliquid libero maxime doloribus suscipit tenetur enim fugit, molestiae neque in ab soluta unde nihil magnam numquam quam dolor deleniti necessitatibus molestias placeat magni labore voluptatem eos. Voluptas adipisci ex placeat temporibus blanditiis, recusandae, modi, doloribus est tenetur incidunt a dolores fugit aliquam consequatur consectetur sunt id mollitia? Voluptatem culpa illo ea? Eos excepturi sequi expedita sit fuga accusamus porro perspiciatis distinctio quia ex quod eum assumenda esse voluptatibus dolorem dolorum quas, nulla soluta maiores. Voluptatum sunt, ea amet necessitatibus voluptatibus vero natus nihil temporibus error ab quam inventore vitae laborum suscipit quasi delectus aperiam eligendi eos cumque. Laudantium cupiditate officiis quidem nobis aut, minima ducimus temporibus harum libero sit dolor accusantium assumenda ipsum, voluptates ipsa modi?
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam exercitationem unde totam officia numquam natus quam quos quia, eius dignissimos atque velit. Repellat, vero enim officia odit culpa est a aspernatur voluptas alias, harum magni dolorum cumque optio velit mollitia facere tenetur illum rerum ratione ut recusandae, reiciendis ullam asperiores quidem. Velit aliquid labore dolores, expedita nobis, explicabo fuga facere autem, deserunt magnam debitis iure eaque saepe voluptatem ad adipisci delectus. Exercitationem nobis minus mollitia excepturi ab velit corrupti eius. Praesentium modi aliquid libero maxime doloribus suscipit tenetur enim fugit, molestiae neque in ab soluta unde nihil magnam numquam quam dolor deleniti necessitatibus molestias placeat magni labore voluptatem eos. Voluptas adipisci ex placeat temporibus blanditiis, recusandae, modi, doloribus est tenetur incidunt a dolores fugit aliquam consequatur consectetur sunt id mollitia? Voluptatem culpa illo ea? Eos excepturi sequi expedita sit fuga accusamus porro perspiciatis distinctio quia ex quod eum assumenda esse voluptatibus dolorem dolorum quas, nulla soluta maiores. Voluptatum sunt, ea amet necessitatibus voluptatibus vero natus nihil temporibus error ab quam inventore vitae laborum suscipit quasi delectus aperiam eligendi eos cumque. Laudantium cupiditate officiis quidem nobis aut, minima ducimus temporibus harum libero sit dolor accusantium assumenda ipsum, voluptates ipsa modi?
             </p>
             </div>
 
@@ -111,7 +111,7 @@ class Main extends Component {
 
 
 
-        <div className="row2">
+        <div className="row justify-content-center">
 
           {this.state.appartments.map(appartment => {
             return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
