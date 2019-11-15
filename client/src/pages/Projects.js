@@ -96,6 +96,12 @@ class Projects extends Component {
 
         </div> */}
 
+        <div className="project-header" id="project-header">
+        <h1><strong>OUR WORK</strong></h1>
+        <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping restore some of New York City’s most prominent landmarks.
+        </p>
+        </div>
+
 
 
         <div className="row">

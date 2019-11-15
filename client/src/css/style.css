@@ -373,5 +373,16 @@ th {
     padding-top: 10px;
     
   } 
+  #project-header{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    /* width: 9000px; */
+    /* height: 1100px; */
+    /* z-index: -100; */
+    transform: translate(-38%, -10%);
+  }
 
 }
