@@ -69,7 +69,7 @@ class Projects extends Component {
       <div>
 
 
-        <div className="row1">
+        {/* <div className="row1">
 
           <div className="container-fluid">
             <video autoPlay muted loop id="myVideo">
@@ -94,11 +94,11 @@ class Projects extends Component {
             </div>
           </div>
 
-        </div>
+        </div> */}
 
 
 
-        <div className="row2">
+        <div className="row">
 
           {this.state.appartments.map(appartment => {
             return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
