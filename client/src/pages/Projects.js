@@ -1,10 +1,28 @@
 import React, { Component } from "react";
 import CardMain from "../components/CardMain";
-import video from "../images/video.mp4";
-import image1 from '../images/1.jpg';
-import image2 from '../images/2.jpg';
-import image3 from '../images/3.jpg';
-import image4 from '../images/4.jpg';
+// import video from "../images/video.mp4";
+import image1 from '../images/wj/duct-before-fullview.jpg';
+import image2 from '../images/wj/1.JPG';
+import image3 from '../images/wj/duct-finish-rightcorner.JPEG';
+import image4 from '../images/wj/duct1after.PNG';
+import image5 from '../images/wj/duct1before.PNG';
+import image6 from '../images/wj/duct2after.PNG';
+import image7 from '../images/wj/duct2before.PNG';
+import image8 from '../images/wj/hallway-overhead.JPG';
+import image9 from '../images/wj/hospital-bare-cornerlongview.jpg';
+import image10 from '../images/wj/hospital-bare-farsideview.jpg';
+import image11 from '../images/wj/hospital-bare-fullview.jpg';
+import image12 from '../images/wj/hospital-bare-longview.jpg';
+// import image13 from '../images/wj/';
+// import image14 from '../images/wj/';
+// import image15 from '../images/wj/';
+// import image16 from '../images/wj/';
+// import image17 from '../images/wj/';
+// import image18 from '../images/wj/';
+// import image19 from '../images/wj/';
+// import image20 from '../images/wj/';
+
+
 
 
 
@@ -20,10 +38,34 @@ const API = {
       image: image3,
       title: "New Appartment"
     }, {
+      image: image8,
+      title: "New Appartment"
+    },{
+      image: image5,
+      title: "New Appartment"
+    }, {
+      image: image6,
+      title: "New Appartment"
+    }, {
+      image: image7,
+      title: "New Appartment"
+    }, {
       image: image4,
       title: "New Appartment"
+    }, {
+      image: image9,
+      title: "New Appartment"
+    }, {
+      image: image10,
+      title: "New Appartment"
+    }, {
+      image: image11,
+      title: "New Appartment"
+    },{
+      image: image12,
+      title: "New Appartment"
     }])
-  }
+}
 }
 
 
@@ -61,9 +103,9 @@ class Projects extends Component {
 
   };
 
-  
 
-  
+
+
   render() {
     return (
       <div>
@@ -95,15 +137,15 @@ class Projects extends Component {
           </div>
 
         </div> */}
-<br/><br/>
-<br/>
-<br/>
-<br/>
-<br/><br/>
+        <br /><br />
+        <br />
+        <br />
+        <br />
+        <br /><br />
 
         <div className="project-header" id="project-header">
-        <h1><strong>OUR WORK</strong></h1>
-        <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping restore some of New York City’s most prominent landmarks.
+          <h1><strong>OUR WORK</strong></h1>
+          <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping restore some of New York City’s most prominent landmarks.
         </p>
         </div>
 
