@@ -3,7 +3,7 @@ import React from "react";
 
 function ProjectCard(props) {
     return (
-        <div className="col-sm-3">
+        <div className="col-sm-4">
             <div className="card cards animated fadeInUp delay-1s">
                 <img src={props.image} className="card-img-top" alt="New Property" />
                 <div className="card-body">

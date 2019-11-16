@@ -5,10 +5,10 @@ import ProjectCard from "../components/ProjectCard";
 import image1 from '../images/wj/duct-before-fullview.jpg';
 import image2 from '../images/wj/1.JPG';
 import image3 from '../images/wj/duct-finish-rightcorner.JPEG';
-import image4 from '../images/wj/duct1after.PNG';
-import image5 from '../images/wj/duct1before.PNG';
-import image6 from '../images/wj/duct2after.PNG';
-import image7 from '../images/wj/duct2before.PNG';
+// import image4 from '../images/wj/duct1after.PNG';
+// import image5 from '../images/wj/duct1before.PNG';
+// import image6 from '../images/wj/duct2after.PNG';
+// import image7 from '../images/wj/duct2before.PNG';
 import image8 from '../images/wj/hallway-overhead.JPG';
 import image9 from '../images/wj/hospital-bare-cornerlongview.jpg';
 import image10 from '../images/wj/hospital-bare-farsideview.jpg';
@@ -41,19 +41,20 @@ const API = {
     }, {
       image: image8,
       title: "New Appartment"
-    },{
-      image: image5,
-      title: "New Appartment"
-    }, {
-      image: image6,
-      title: "New Appartment"
-    }, {
-      image: image7,
-      title: "New Appartment"
-    }, {
-      image: image4,
-      title: "New Appartment"
-    }, {
+    },//{
+      // image: image5,
+      // title: "New Appartment"
+    // }, {
+      // image: image6,
+      // title: "New Appartment"
+    // }, {
+      // image: image7,
+      // title: "New Appartment"
+    // }, {
+      // image: image4,
+      // title: "New Appartment"
+    // }, 
+    {
       image: image9,
       title: "New Appartment"
     }, {
