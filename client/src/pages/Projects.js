@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CardMain from "../components/CardMain";
+import ProjectCard from "../components/ProjectCard";
 // import video from "../images/video.mp4";
 import image1 from '../images/wj/duct-before-fullview.jpg';
 import image2 from '../images/wj/1.JPG';
@@ -154,7 +155,7 @@ class Projects extends Component {
         <div className="row">
 
           {this.state.appartments.map(appartment => {
-            return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
+            return <ProjectCard image={appartment.image} title={appartment.title} open={this.open} />
 
           })}
 
