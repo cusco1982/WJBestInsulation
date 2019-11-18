@@ -12,7 +12,7 @@ function Nav() {
     
     <div className="container-fluid contnav" id="contnav">
     <div className="container">
-<nav className="navbar navbar-expand-lg navbar-light navigator">
+<nav className="navbar navbar-expand-lg navbar-light navigator" >
 
 <Link className="navbar-brand navbrand animated slideInLeft slow" to="/">
   <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo}/>
