@@ -40,16 +40,6 @@ function Contact(props) {
 
 
 
-      <div id="location">
-
-
-      2nd col
-      </div>
-
-
-
-
-
 
     </div>
 

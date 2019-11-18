@@ -96,7 +96,7 @@ export default class Tenants extends Component {
                 </div>
                 <br />
                 <div>
-                  <button className="btn btn-primary btn-lg btn-block" style={{ marginBottom: "10px" }} type="submit">Login Now</button>
+                  <button className="btn btn-primary btn-lg btn-block" style={{ marginBottom: "10px", opacity:"70%"}} type="submit">Login Now</button>
                   {/* <p class="lead mt-4">
           No Account? <a href="/register">Register</a>
         </p> */}

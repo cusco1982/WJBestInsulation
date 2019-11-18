@@ -231,6 +231,14 @@ class Admin extends Component {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-3">
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
             <div className="butdom">
               <button type="button" onClick={this.onClick} name="tenant" className="btn btn-primary btn-lg btn-block">Manage Tenants</button>
               <button type="button" onClick={this.onClick} name="units" className="btn btn-primary btn-lg btn-block">Manage Properties</button>
@@ -241,6 +249,13 @@ class Admin extends Component {
 
 
           <div className="col-md-9">
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
             {this.state.showTable ?
               <table className="table table-striped tbls">
                 <thead>
