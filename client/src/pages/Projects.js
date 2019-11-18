@@ -146,9 +146,9 @@ class Projects extends Component {
         <br /><br />
 
         <div className="project-header" id="project-header">
-          <h1><strong>OUR WORK</strong></h1>
-          <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping
-             restore some of New York City’s most prominent landmarks.
+          <h1 className=" animated fadeInUp delay-1s" style={{textAlign:"center"}}><strong>OUR WORK</strong></h1><br/>
+          <p className=" animated fadeInUp delay-1s" style={{textAlign:"center", fontSize:"30px"}}> New York Insulation has completed over 20,000 projects for private and public sector clients; helping <br/>
+             restore some of New York City’s most prominent landmarks. <br/><br/>
         </p>
         </div>
 
