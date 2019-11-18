@@ -61,6 +61,14 @@ export default class Tenants extends Component {
       <div className="container-fluid imgcont">
         <div className="row justify-content-cenr">
           <div className="col-md-4 col3 animated fadeInUp slow delay">
+          <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className="jumbotron tent">
               <h2>Online Portal</h2>
               <h4>Pay rent, submit maintenance requests, and view your account from anywhere.</h4>
@@ -68,7 +76,15 @@ export default class Tenants extends Component {
           </div>
 
           <div className="col-md-4 col3 animated fadeInUp slow delay">
+          <br/>
+            <br/>
+            <br/>
+            <br/><br/>
+            <br/>
+            <br/>
+            <br/>
             <div className="jumbotron tent1">
+            
               <form onSubmit={this.handleSubmit}>
                 <div className="loginput">
                   <label for="email">Your Email Address</label>
