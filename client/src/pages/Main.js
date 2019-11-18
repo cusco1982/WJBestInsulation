@@ -86,7 +86,7 @@ class Main extends Component {
             </div>
 
             <div id="company-info">
-              <p style={{ textAlign: "center", fontSize:"35px"}}><strong>
+              <p style={{ textAlign: "center", fontSize:"35px", width:"80%",transform: "translate(10%, 0)" }}><strong>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam exercitationem unde totam officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ad iusto recusandae tempore quos. Ratione fuga nam eum autem. Consectetur!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, vel.
            </strong> </p>
             </div>
