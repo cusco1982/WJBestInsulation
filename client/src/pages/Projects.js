@@ -42,7 +42,7 @@ const API = {
       image: image8,
       title: "New Appartment"
     },//{
-      // image: image5,
+      // image: image5,                     <----img 4,5,6,7 need editing
       // title: "New Appartment"
     // }, {
       // image: image6,
@@ -147,7 +147,8 @@ class Projects extends Component {
 
         <div className="project-header" id="project-header">
           <h1><strong>OUR WORK</strong></h1>
-          <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping restore some of New York City’s most prominent landmarks.
+          <p>New York Insulation has completed over 20,000 projects for private and public sector clients; helping
+             restore some of New York City’s most prominent landmarks.
         </p>
         </div>
 
