@@ -13,12 +13,14 @@ class Contacts extends Component {
     message: ''
   }
 
+  
   onSubmit = () => {
     const fname = this.state.fname;
     const lname = this.state.lname;
     const email = this.state.email;
     const phone = this.state.phone;
     const message = this.state.message;
+
 
 
     API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
