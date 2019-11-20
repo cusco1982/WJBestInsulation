@@ -43,7 +43,7 @@ class Contacts extends Component {
           </div>
         </div>
 
-        <div className="col-md-4" style={{ float: "right" }}><br/>
+        <div className="col-md-4" ><br/>
           <br/>
           <br/>
           <br/>
@@ -51,6 +51,8 @@ class Contacts extends Component {
           <br/>
           <br/>
         2nd column
+
+        
 
         </div>
 
