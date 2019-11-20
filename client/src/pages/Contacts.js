@@ -23,7 +23,6 @@ class Contacts extends Component {
 
     API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
   }
-
   render() {
     return (
       <div className="row">
