@@ -13,7 +13,7 @@ class Contacts extends Component {
     message: ''
   }
 
-  
+
   onSubmit = () => {
     const fname = this.state.fname;
     const lname = this.state.lname;
@@ -67,6 +67,5 @@ class Contacts extends Component {
     )
   }
 }
-
 
 export default Contacts;
