@@ -96,13 +96,13 @@ class Main extends Component {
             <div className="content">
               <h3 className="hed3">Featured properties</h3>
 
-              <div className="row justify-content-center">
+              {/* <div className="row justify-content-center">
 
                 {this.state.appartments.map(appartment => {
                   return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
 
                 })}
-              </div>
+              </div> */}
             </div>
 
           </div>
@@ -111,14 +111,14 @@ class Main extends Component {
 
 
 
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
 
           {this.state.appartments.map(appartment => {
             return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
 
           })}
 
-        </div>
+        </div> */}
 
 
       </div>
