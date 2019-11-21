@@ -57,11 +57,11 @@ class Main extends Component {
     // )
     // .catch(err => console.log(err));
 
-    const appartments = API.getAppart()
+  //   const appartments = API.getAppart()
 
-    this.setState({ appartments: appartments })
+  //   this.setState({ appartments: appartments })
 
-  };
+  // };
 
 
 
