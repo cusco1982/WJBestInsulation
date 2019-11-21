@@ -31,26 +31,26 @@ const API = {
 
 
 class Main extends Component {
-  state = {
-    appartments: [],
+  // state = {
+  //   appartments: [],
 
-  };
+  // };
 
-  open = () => {
-    let path = `/Contact`;
-    this.props.history.push(path);
-  }
+  // open = () => {
+  //   let path = `/Contact`;
+  //   this.props.history.push(path);
+  // }
 
-  close = (event) => {
-    if (event) event.preventDefault();
-    this.setState({ showModal: false });
-  }
+  // close = (event) => {
+  //   if (event) event.preventDefault();
+  //   this.setState({ showModal: false });
+  // }
 
-  componentDidMount() {
-    this.loadAppart();
-  }
+  // componentDidMount() {
+  //   this.loadAppart();
+  // }
 
-  loadAppart = () => {
+  // loadAppart = () => {
     // API.getAppart()
     // .then(res =>
     //   this.setState({ appartments: res.data })
