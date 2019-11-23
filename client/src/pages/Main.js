@@ -110,7 +110,6 @@ class Main extends Component {
         </div>
 
 
-
         {/* <div className="row justify-content-center">
 
           {this.state.appartments.map(appartment => {
@@ -124,7 +123,7 @@ class Main extends Component {
 <br/>
 <br/>
 <br/>
-<br/>
+{/* <br/> */}
       </div>
 
     );
