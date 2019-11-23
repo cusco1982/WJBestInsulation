@@ -29,8 +29,6 @@ const API = {
 }
 
 
-
-
 class Main extends Component {
   // state = {
   //   appartments: [],
