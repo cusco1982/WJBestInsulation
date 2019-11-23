@@ -93,7 +93,7 @@ class Main extends Component {
 
 
 
-            <div className="content">
+            {/* <div className="content"> */}
               {/* <h3 className="hed3">Featured properties</h3> */}
 
               {/* <div className="row justify-content-center">
@@ -103,7 +103,7 @@ class Main extends Component {
 
                 })}
               </div> */}
-            </div>
+            {/* </div> */}
 
           </div>
 
