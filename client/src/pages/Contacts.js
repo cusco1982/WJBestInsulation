@@ -5,7 +5,7 @@ import API from "../utils/API"
 
 class Contacts extends Component {
 
-
+  
   state = {
     fname: '',
     lname: '',
@@ -20,7 +20,8 @@ class Contacts extends Component {
     const lname = this.state.lname;
     const email = this.state.email;
     const phone = this.state.phone;
-    const message = this.state.message
+    const message = this.state.message;
+
 
     API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
   }
