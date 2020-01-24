@@ -47,6 +47,7 @@ export default class App extends Component {
               <Route exact path="/Tenant" component={Tenant} />
               <Route exact path="/Register" component={Register} />
               <Route exact path="/Projects" component={Projects} />
+              {/* exact path = "*" component={unknown} */}
 
             </Switch>
           </div>

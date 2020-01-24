@@ -158,7 +158,7 @@ class Projects extends Component {
 
 
 
-        <div className="row">
+        <div className="row1">
 
           {this.state.appartments.map(appartment => {
             return <ProjectCard image={appartment.image} title={appartment.title} open={this.open} />

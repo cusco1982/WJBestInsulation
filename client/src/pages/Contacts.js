@@ -22,6 +22,7 @@ class Contacts extends Component {
     const phone = this.state.phone;
     const message = this.state.message;
 
+
     API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
   }
   render() {

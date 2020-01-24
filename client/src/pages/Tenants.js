@@ -61,14 +61,14 @@ export default class Tenants extends Component {
       <div className="container-fluid imgcont">
         <div className="row justify-content-cenr">
           <div className="col-md-4 col3 animated fadeInUp slow delay">
-          <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="jumbotron tent">
               <h2>Online Portal</h2>
               <h4>Pay rent, submit maintenance requests, and view your account from anywhere.</h4>
@@ -76,15 +76,15 @@ export default class Tenants extends Component {
           </div>
 
           <div className="col-md-4 col3 animated fadeInUp slow delay">
-          <br/>
-            <br/>
-            <br/>
-            <br/><br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br /><br />
+            <br />
+            <br />
+            <br />
             <div className="jumbotron tent1">
-            
+
               <form onSubmit={this.handleSubmit}>
                 <div className="loginput">
                   <label for="email">Your Email Address</label>
@@ -96,12 +96,13 @@ export default class Tenants extends Component {
                 </div>
                 <br />
                 <div>
-                  <button className="btn btn-primary btn-lg btn-block" style={{ marginBottom: "10px", opacity:"70%"}} type="submit">Login Now</button>
+                  <button className="btn btn-primary btn-lg btn-block" style={{ marginBottom: "10px", opacity: "70%" }} type="submit">Login Now</button>
                   {/* <p class="lead mt-4">
           No Account? <a href="/register">Register</a>
         </p> */}
                 </div>
-              </form>              <p class="lead mt-4">
+              </form>
+              <p class="lead mt-4">
                 No Account? <Link className="register-link" to="/register">Register</Link>
               </p>
             </div>
