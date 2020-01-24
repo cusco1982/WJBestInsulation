@@ -157,7 +157,6 @@ class Projects extends Component {
         </div>
 
 
-
         <div className="row">
 
           {this.state.appartments.map(appartment => {
