@@ -102,9 +102,11 @@ export default class Tenants extends Component {
         </p> */}
                 </div>
               </form>
+
               <p class="lead mt-4">
                 No Account? <Link className="register-link" to="/register">Register</Link>
               </p>
+              
             </div>
           </div>
         </div>
