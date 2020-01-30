@@ -47,7 +47,8 @@ class Contacts extends Component {
 
 
 
-        <div className="col-md-4" ><br/>
+        <div className="col-md-4" >
+          <br/>
           <br/>
           <br/>
           <br/>
@@ -58,45 +59,7 @@ class Contacts extends Component {
 
 
 
-          <div class="item">
-                    <h1><i class="far fa-paper-plane"></i> Direct Message</h1>
-                    <div class="column">
-                    <form id="contact" action="https://formspree.io/saymetamail@gmail.com" method="POST">
-                        <div class="col-item">
-                            <div class="container">
-                                <div class="con-it">
-                                    <label for="name">Name</label>
-                                </div>
-                                <div class="con-it">
-                                    <input type="text" id="name" name="name" placeholder="Your Name" required="required">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-item">
-                            <div class="container">
-                                <div class="con-it">
-                                    <label for="email">Email</label>
-                                </div>
-                                <div class="con-it">
-                                    <input type="email" id="email" name="email" placeholder="Your Email" required="required">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-item">
-                            <div class="container">
-                                <div class="con-it">
-                                    <label for="message">Message</label>
-                                </div>
-                                <div class="con-it">
-                                    <textarea id="message" name="message" placeholder="optional"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    <input class="btn col-item" id="wide" name="submit" type="submit" value="Send Message">
-                </form>
-                </div>
 
-                </div>
 
 
 
