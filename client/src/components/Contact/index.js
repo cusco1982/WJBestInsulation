@@ -20,19 +20,19 @@ function Contact(props) {
 
           <div className="col-md">
             <label className="lable1"> </label>
-            <input className="form-control input" type="email" id="email" name="email" placeholder=" Email" required onChange={props.onChange} />
+            <input style={{height: "80px"}} className="form-control input" type="email" id="email" name="email" placeholder=" Email" required onChange={props.onChange} />
           </div>
 
         </div><br />
 
 
         <label class="lable1"> </label>
-        <textarea class="form-control text" name="message" id="message" rows="3" cols="128" placeholder=" Tell us about your project, scope of work and timeline"
+        <textarea style={{height: "200px"}} class="form-control text" name="message" id="message" rows="3" cols="128" placeholder=" Tell us about your project, scope of work and timeline"
 
           required></textarea><br /><br />
 
 
-        <button id="sendmail" class="btn btn-primary btn-lg btn-block" onClick={props.onSubmit}>Submit</button>
+        <button style={{height: "80px"}} id="sendmail" class="btn btn-primary btn-lg btn-block" onClick={props.onSubmit}>Submit</button>
         
       </div>
 
