@@ -15,7 +15,7 @@ function Contact(props) {
 
           <div className="col-md">
             <label className="lable"> </label>
-            <input className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
+            <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
           </div>
 
           <div className="col-md">
