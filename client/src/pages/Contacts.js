@@ -32,7 +32,7 @@ class Contacts extends Component {
 
 
 
-        <div className="container col-md-8" style={{ marginTop: "30px", textAlign:"left" }}>
+        <div className="container col-md-8" style={{ marginTop: "30px", float:"left" }}>
           <div className="jumbotron form animated fadeInUp slow">
             <div className="contact-left">
               <br />
