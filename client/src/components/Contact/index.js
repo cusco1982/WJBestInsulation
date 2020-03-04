@@ -13,17 +13,17 @@ function Contact(props) {
 
         <div className="row">
 
-          <div className="col-md">
+          <div className="col-md-3">
             <label className="lable"> </label>
             <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
           </div>
 
-          <div className="col-md">
+          <div className="col-md-3">
             <label className="lable"> </label>
             <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
           </div>
 
-          <div className="col-md">
+          <div className="col-md-6">
             <label className="lable1"> </label>
             <input style={{height: "80px"}} className="form-control input" type="email" id="email" name="email" placeholder=" Email" required onChange={props.onChange} />
           </div>
