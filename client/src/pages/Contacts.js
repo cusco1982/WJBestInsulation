@@ -40,7 +40,7 @@ class Contacts extends Component {
               <br />
               <br />
 
-              <h1 style={{float: "center"}}>HAVE A PROJECT IN MIND?</h1><br />
+              <h1 style={{float: "right"}}>HAVE A PROJECT IN MIND?</h1><br />
               <h4>Questions about an upcoming project or need a quote? We’d be glad to help.</h4><br />
               <Contact onChange={this.onChange} onSubmit={this.onSubmit} />
             </div>
