@@ -15,12 +15,12 @@ function Contact(props) {
 
           <div className="col-md-3">
             <label className="lable"> </label>
-            <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
+            <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" First Name" required onChange={props.onChange} />
           </div>
 
           <div className="col-md-3">
             <label className="lable"> </label>
-            <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Full Name" required onChange={props.onChange} />
+            <input style={{height: "80px"}} className="form-control input" type="text" name="name" id="fname" placeholder=" Last Name" required onChange={props.onChange} />
           </div>
 
           <div className="col-md-6">
