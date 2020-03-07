@@ -37,7 +37,7 @@ function Contact(props) {
           required></textarea><br /><br />
 
 
-        <button style={{height: "70px", width:"140px"}} id="sendmail" class="btn btn-primary btn-lg btn-block" onClick={props.onSubmit}>Submit</button>
+        <button style={{height: "70px", width:"140px"}} id="sendmail" class=" btn-primary btn-lg btn-block" onClick={props.onSubmit}>Submit</button>
         
       </div>
 
