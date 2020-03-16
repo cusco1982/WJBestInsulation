@@ -38,8 +38,11 @@ function Contact(props) {
 
 
         <button style={{height: "70px", width:"140px"}} id="sendmail" class="btn btn-primary btn-lg btn-block" onClick={props.onSubmit}>Submit</button>
+      
         
       </div>
+
+
     </div>
 
 
