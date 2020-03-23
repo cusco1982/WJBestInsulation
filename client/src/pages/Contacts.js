@@ -35,13 +35,13 @@ class Contacts extends Component {
     e.preventDefault()
 
     const { name, email, message } = this.state;
-    console.log(this.state);
+    // console.log(this.state);
 
-    // const form = await axios.post('/api/form', {
-    //   name,
-    //   email,
-    //   message
-    // })
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message
+    })
 
   }
 
