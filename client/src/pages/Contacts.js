@@ -46,7 +46,7 @@ class Contacts extends Component {
                 {/* We’d be glad to help! */}
               </h4>
               <br />
-              <Contact onChange={this.onChange} onSubmit={this.onSubmit} />
+              {/* <Contact onChange={this.onChange} onSubmit={this.onSubmit} /> */}
             </div>
           </div>
         </div>
