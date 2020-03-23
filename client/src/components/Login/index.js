@@ -9,11 +9,11 @@ function Login(props) {
       <div className="loginput">
       
         <label for="email">Your Email Address</label>
-        <input className="form-control" type="email" id="email" name="email" required onChange={props.onChange} />
+        <input className="form-control" required type="email" id="email" name="email" required onChange={props.onChange} />
       </div>
       <div className="loginput">
         <label for="password">Password</label>
-        <input className="form-control" type="password" id="password" name="password" required onChange={props.onChange} />
+        <input className="form-control" required type="password" id="password" name="password" required onChange={props.onChange} />
       </div>
       <br />
       <div>
