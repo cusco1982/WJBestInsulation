@@ -49,42 +49,6 @@ class Contacts extends Component {
 
 
 
-        <div className="col-md-4" >
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-
-
-
-
-
-
-
-
-
-
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-
-        </div>
-
-
-
-
-
-
       </div>
 
     )
