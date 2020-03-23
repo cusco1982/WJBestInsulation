@@ -6,17 +6,17 @@ import API from "../utils/API"
 class Contacts extends Component {
 
 
-  state = {
-    fname: '',
-    lname: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
+  // state = {
+  //   fname: '',
+  //   lname: '',
+  //   email: '',
+  //   phone: '',
+  //   message: ''
+  // }
 
 
   onSubmit = () => {
-    console.log(this.state);
+    // console.log(this.state);
     // const fname = this.state.fname;
     // const lname = this.state.lname;
     // const email = this.state.email;
@@ -36,13 +36,14 @@ class Contacts extends Component {
               <br />
               <br />
               <h1 style={{ float: "center" }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;HAVE A PROJECT IN MIND?
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                {/* HAVE A PROJECT IN MIND? */}
               </h1>
               <br />
               <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                Questions about an upcoming project or need a quote?
+                {/* Questions about an upcoming project or need a quote? */}
                 &nbsp;&nbsp;
-                We’d be glad to help!
+                {/* We’d be glad to help! */}
               </h4>
               <br />
               <Contact onChange={this.onChange} onSubmit={this.onSubmit} />
