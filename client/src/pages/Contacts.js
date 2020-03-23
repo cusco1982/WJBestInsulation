@@ -28,10 +28,7 @@ class Contacts extends Component {
   render() {
     return (
 
-      <div className="row1">
-
-
-
+      <div>
         <div className="container col-md-7" style={{ marginTop: "30px", float:"left" }}>
           <div className="jumbotron form animated fadeInUp slow">
             <div className="contact-left">
@@ -39,7 +36,6 @@ class Contacts extends Component {
               <br />
               <br />
               <br />
-
               <h1 style={{float: "center"}}>&nbsp;&nbsp;&nbsp;&nbsp;HAVE A PROJECT IN MIND?</h1><br />
               <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Questions about an upcoming project or need a quote? &nbsp;&nbsp;We’d be glad to help!</h4><br />
               <Contact onChange={this.onChange} onSubmit={this.onSubmit} />
