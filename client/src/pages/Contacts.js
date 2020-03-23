@@ -14,8 +14,7 @@ class Contacts extends Component {
   //   message: ''
   // }
 
-
-  onSubmit = () => {
+  // onSubmit = () => {
     // console.log(this.state);
     // const fname = this.state.fname;
     // const lname = this.state.lname;
@@ -23,7 +22,8 @@ class Contacts extends Component {
     // const phone = this.state.phone;
     // const message = this.state.message;
     // API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
-  }
+  // }
+
   render() {
     return (
 
