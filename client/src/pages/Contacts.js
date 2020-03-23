@@ -15,13 +15,13 @@ class Contacts extends Component {
   // }
 
   // onSubmit = () => {
-    // console.log(this.state);
-    // const fname = this.state.fname;
-    // const lname = this.state.lname;
-    // const email = this.state.email;
-    // const phone = this.state.phone;
-    // const message = this.state.message;
-    // API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
+  // console.log(this.state);
+  // const fname = this.state.fname;
+  // const lname = this.state.lname;
+  // const email = this.state.email;
+  // const phone = this.state.phone;
+  // const message = this.state.message;
+  // API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
   // }
 
   render() {
@@ -46,6 +46,26 @@ class Contacts extends Component {
                 {/* We’d be glad to help! */}
               </h4>
               <br />
+
+              <Form onSubmit={this.handleSubmit} style={{ width: "600px" }}>
+                <FormGroup>
+                  <Label for="name">Name:</Label>
+                  <Input type="name" name="name" onChange={this.handleChange} />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="email">Email:</Label>
+                  <Input type="email" name="email" onChange={this.handleChange} />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="message">Message:</Label>
+                  <Input type="textarea" name="message" onChange={this.handleChange} />
+                </FormGroup>
+                <br />
+                <div>
+                  <Button style={{ marginBottom: "10px", opacity: "70%" }} type="submit">Submit</Button>
+                </div>
+              </Form>
+
               {/* <Contact onChange={this.onChange} onSubmit={this.onSubmit} /> */}
             </div>
           </div>
