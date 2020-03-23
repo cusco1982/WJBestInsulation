@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "proxy":"http://localhost:3001",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@mdi/font": "^4.9.95",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -37,6 +37,7 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "react-router-dom": "^5.1.2",
+    "reactstrap": "^8.4.1",
     "sharp": "^0.23.4",
     "stripe": "^7.15.0",
     "uuid": "^3.4.0"

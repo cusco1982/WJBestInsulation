@@ -1,11 +1,52 @@
 import React, { Component } from "react";
-import Contact from "../components/Contact";
-import API from "../utils/API"
+// import Contact from "../components/Contact";
+// import API from "../utils/API"
+
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
+import axios from 'axios';
+
 
 
 class Contacts extends Component {
 
+  constructor() {
+    super()
 
+    this.state = {
+      name: '',
+      email: '',
+      message: ''
+    }
+
+    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+
+  }
+
+
+  handleChange = event => {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  async handleSubmit(e) {
+    e.preventDefault()
+
+    const { name, email, message } = this.state;
+    // console.log(this.state);
+
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message
+    })
+
+  }
+
+
+  // class Contacts extends Component {
   // state = {
   //   fname: '',
   //   lname: '',
