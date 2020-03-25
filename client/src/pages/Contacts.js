@@ -19,6 +19,7 @@ class Contacts extends Component {
         onSubmit={this.submitForm}
         action="https://formspree.io/xjvolkon"
         method="POST"
+        // enctype="multipart/form-data"
       >
       <br/>
       <br/>
@@ -35,9 +36,9 @@ class Contacts extends Component {
         <label>Message:</label>
         <input type="text" name="message" />
         
-        <br/>
+        {/* <br/>
         <label>Your file:</label>
-        <input type="file" name="upload" />
+        <input type="file" name="upload" /> */}
 
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
