@@ -31,8 +31,14 @@ class Contacts extends Component {
 
         <label>Email:</label>
         <input type="email" name="email" />
+
         <label>Message:</label>
         <input type="text" name="message" />
+        
+        <br/>
+        <label>Your file:</label>
+        <input type="file" name="upload" />
+
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
