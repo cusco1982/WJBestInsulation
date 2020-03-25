@@ -1,119 +1,61 @@
 import React, { Component } from "react";
-// import Contact from "../components/Contact";
-// import API from "../utils/API"
-
-import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
-import axios from 'axios';
-
 
 
 class Contacts extends Component {
 
-  constructor() {
-    super()
-
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
     this.state = {
-      name: '',
-      email: '',
-      message: ''
-    }
-
-    this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-
+      status: ""
+    };
   }
-
-
-  handleChange = event => {
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value
-    });
-  };
-
-  async handleSubmit(e) {
-    e.preventDefault()
-
-    const { name, email, message } = this.state;
-    // console.log(this.state);
-
-    const form = await axios.post('/api/form', {
-      name,
-      email,
-      message
-    })
-
-  }
-
-
-  // class Contacts extends Component {
-  // state = {
-  //   fname: '',
-  //   lname: '',
-  //   email: '',
-  //   phone: '',
-  //   message: ''
-  // }
-
-  // onSubmit = () => {
-  // console.log(this.state);
-  // const fname = this.state.fname;
-  // const lname = this.state.lname;
-  // const email = this.state.email;
-  // const phone = this.state.phone;
-  // const message = this.state.message;
-  // API.contact({ fname: fname, lname: lname, email: email, phone: phone, message: message })
-  // }
-
+  
+  
   render() {
+    const { status } = this.state;
     return (
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/xjvolkon"
+        method="POST"
+      >
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
 
-      <div>
-        <div className="container col-md-7" style={{ marginTop: "30px", float: "left" }}>
-          <div className="jumbotron form animated fadeInUp slow">
-            <div className="contact-left">
-              <br />
-              <br />
-              <br />
-              <br />
-              <h1 style={{ float: "center" }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                {/* HAVE A PROJECT IN MIND? */}
-              </h1>
-              <br />
-              <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                {/* Questions about an upcoming project or need a quote? */}
-                &nbsp;&nbsp;
-                {/* We’d be glad to help! */}
-              </h4>
-              <br />
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Message:</label>
+        <input type="text" name="message" />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+      </form>
+    );
+  }
 
-              <Form onSubmit={this.handleSubmit} style={{ width: "600px" }}>
-                <FormGroup>
-                  <Label for="name">Name:</Label>
-                  <Input type="name" name="name" onChange={this.handleChange} />
-                </FormGroup>
-                <FormGroup>
-                  <Label for="email">Email:</Label>
-                  <Input type="email" name="email" onChange={this.handleChange} />
-                </FormGroup>
-                <FormGroup>
-                  <Label for="message">Message:</Label>
-                  <Input type="textarea" name="message" onChange={this.handleChange} />
-                </FormGroup>
-                <br />
-                <div>
-                  <Button style={{ marginBottom: "10px", opacity: "70%" }} type="submit">Submit</Button>
-                </div>
-              </Form>
-
-              {/* <Contact onChange={this.onChange} onSubmit={this.onSubmit} /> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-    )
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
   }
 }
 
