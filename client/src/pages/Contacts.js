@@ -54,7 +54,7 @@ class Contacts extends Component {
           <label>Name:</label>
           {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
           <br />
-          <input type="text" name="name" />
+          <input class='form-control' type="text" name="name" />
           {/* <input type="text" name="company" />          */}
           <br />
           <label>Email:</label>
