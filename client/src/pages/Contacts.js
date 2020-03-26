@@ -51,40 +51,34 @@ class Contacts extends Component {
         <br />
         <br />
         <br />
-
         <label>Name:</label>
         {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
         <br />
         <input type="text" name="name" />
         {/* <input type="text" name="company" />          */}
         <br />
-
         <label>Email:</label>
         {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
         <br />
         <input type="email" name="email" />
         {/* <input type="phone" name="phone" /> */}
         <br />
-       
         <label>Subject:</label>
         <br />
         <input type="text" name="subject" />
         <br />
-
         <label>Message:</label>
         <br />
         <input type="textarea" name="message" />
         <br />
-
         <br />        
-
         {/* <br/>
         <label>Your file:</label>
         <input type="file" name="upload" /> */}
-
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+      
     );
   }
 
