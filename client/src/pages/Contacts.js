@@ -10,32 +10,35 @@ class Contacts extends Component {
       status: ""
     };
   }
-  
-  
+
+
   render() {
     const { status } = this.state;
     return (
+
+
+
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/xjvolkon"
         method="POST"
-        // enctype="multipart/form-data"
+      // enctype="multipart/form-data"
       >
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
         <label>Email:</label>
         <input type="email" name="email" />
 
         <label>Message:</label>
         <input type="text" name="message" />
-        
+
         {/* <br/>
         <label>Your file:</label>
         <input type="file" name="upload" /> */}
