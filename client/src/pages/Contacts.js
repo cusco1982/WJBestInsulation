@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "../components/Card";
 
 
 class Contacts extends Component {
@@ -60,16 +61,16 @@ class Contacts extends Component {
           <label>Email:</label>
           {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
           <br />
-          <input type="email" name="email" />
+          <input class='form-control' type="email" name="email" />
           {/* <input type="phone" name="phone" /> */}
           <br />
           <label>Subject:</label>
           <br />
-          <input type="text" name="subject" />
+          <input class='form-control' type="text" name="subject" />
           <br />
           <label>Message:</label>
           <br />
-          <input type="textarea" name="message" />
+          <input class='form-control' type="textarea" name="message" />
           <br />
           <br />
           {/* <br/>
@@ -79,7 +80,7 @@ class Contacts extends Component {
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
 
-        
+
       </div>
     );
   }
