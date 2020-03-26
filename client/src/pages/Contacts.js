@@ -37,49 +37,51 @@ class Contacts extends Component {
     return (
 
       <div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-        <form
-          onSubmit={this.submitForm}
-          action="https://formspree.io/xjvolkon"
-          method="POST"
-        // enctype="multipart/form-data"
-        >
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <label>Name:</label>
-          {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
-          <br />
-          <input class='form-control' type="text" name="name" />
-          {/* <input type="text" name="company" />          */}
-          <br />
-          <label>Email:</label>
-          {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
-          <br />
-          <input class='form-control' type="email" name="email" />
-          {/* <input type="phone" name="phone" /> */}
-          <br />
-          <label>Subject:</label>
-          <br />
-          <input class='form-control' type="text" name="subject" />
-          <br />
-          <label>Message:</label>
-          <br />
-          <input class='form-control' type="textarea" name="message" />
-          <br />
-          <br />
-          {/* <br/>
+        <div className="container">
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/xjvolkon"
+            method="POST"
+          // enctype="multipart/form-data"
+          >
+
+            <label>Name:</label>
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
+            <br />
+            <input class='form-control' type="text" name="name" />
+            {/* <input type="text" name="company" />          */}
+            <br />
+            <label>Email:</label>
+            {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
+            <br />
+            <input class='form-control' type="email" name="email" />
+            {/* <input type="phone" name="phone" /> */}
+            <br />
+            <label>Subject:</label>
+            <br />
+            <input class='form-control' type="text" name="subject" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <input class='form-control' type="textarea" name="message" />
+            <br />
+            <br />
+            {/* <br/>
         <label>Your file:</label>
         <input type="file" name="upload" /> */}
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </form>
-
+            {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </div>
 
       </div>
     );
