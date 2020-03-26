@@ -35,50 +35,52 @@ class Contacts extends Component {
     const { status } = this.state;
     return (
 
+      <div>
 
-
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/xjvolkon"
-        method="POST"
-      // enctype="multipart/form-data"
-      >
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <label>Name:</label>
-        {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
-        <br />
-        <input type="text" name="name" />
-        {/* <input type="text" name="company" />          */}
-        <br />
-        <label>Email:</label>
-        {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
-        <br />
-        <input type="email" name="email" />
-        {/* <input type="phone" name="phone" /> */}
-        <br />
-        <label>Subject:</label>
-        <br />
-        <input type="text" name="subject" />
-        <br />
-        <label>Message:</label>
-        <br />
-        <input type="textarea" name="message" />
-        <br />
-        <br />        
-        {/* <br/>
+        <form
+          onSubmit={this.submitForm}
+          action="https://formspree.io/xjvolkon"
+          method="POST"
+        // enctype="multipart/form-data"
+        >
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <label>Name:</label>
+          {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
+          <br />
+          <input type="text" name="name" />
+          {/* <input type="text" name="company" />          */}
+          <br />
+          <label>Email:</label>
+          {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
+          <br />
+          <input type="email" name="email" />
+          {/* <input type="phone" name="phone" /> */}
+          <br />
+          <label>Subject:</label>
+          <br />
+          <input type="text" name="subject" />
+          <br />
+          <label>Message:</label>
+          <br />
+          <input type="textarea" name="message" />
+          <br />
+          <br />
+          {/* <br/>
         <label>Your file:</label>
         <input type="file" name="upload" /> */}
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
-      
+          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
+
+        
+      </div>
     );
   }
 
