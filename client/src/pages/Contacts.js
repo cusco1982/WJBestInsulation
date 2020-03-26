@@ -46,9 +46,9 @@ class Contacts extends Component {
 <br/>
 <br/>
 
-        <div className="container">
-          <form
-            onSubmit={this.submitForm}
+        <div className="card" style={{width:'500px'}}>
+          <form className='container'
+            onSubmit={this.submitForm} style={{padding:'20px'}}
             action="https://formspree.io/xjvolkon"
             method="POST"
           // enctype="multipart/form-data"
@@ -82,6 +82,7 @@ class Contacts extends Component {
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
           </form>
         </div>
+        
 
       </div>
     );
