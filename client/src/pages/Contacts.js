@@ -52,11 +52,36 @@ class Contacts extends Component {
         <br />
         <br />
 
+        <label>Name:</label>
+        <br />
+        <input type="text" name="name" />
+        <br />
+
         <label>Email:</label>
+        <br />
         <input type="email" name="email" />
+        <br />
 
         <label>Message:</label>
-        <input type="text" name="message" />
+        <br />
+        <input type="textarea" name="message" />
+        <br />
+
+        <label>Subject:</label>
+        <br />
+        <input type="text" name="subject" />
+        <br />
+
+        <label>Phone:</label>
+        <br />
+        <input type="phone" name="phone" />
+        <br />
+
+        <label>Company:</label>
+        <br />
+        <input type="text" name="company" />
+        <br />
+        <br />        
 
         {/* <br/>
         <label>Your file:</label>
@@ -67,7 +92,7 @@ class Contacts extends Component {
       </form>
     );
   }
-  
+
 }
 
 export default Contacts;
