@@ -52,14 +52,20 @@ class Contacts extends Component {
         <br />
         <br />
 
-        <label>Name:</label>
+        <label>Name:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label>
         <br />
-        <input type="text" name="name" />
+        <input type="text" name="company" />         <input type="text" name="name" />
         <br />
 
-        <label>Email:</label>
+        <label>Email:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label>
         <br />
-        <input type="email" name="email" />
+        <input type="email" name="email" />         <input type="phone" name="phone" />
+
+        <br />
+       
+        <label>Subject:</label>
+        <br />
+        <input type="text" name="subject" />
         <br />
 
         <label>Message:</label>
@@ -67,20 +73,6 @@ class Contacts extends Component {
         <input type="textarea" name="message" />
         <br />
 
-        <label>Subject:</label>
-        <br />
-        <input type="text" name="subject" />
-        <br />
-
-        <label>Phone:</label>
-        <br />
-        <input type="phone" name="phone" />
-        <br />
-
-        <label>Company:</label>
-        <br />
-        <input type="text" name="company" />
-        <br />
         <br />        
 
         {/* <br/>
