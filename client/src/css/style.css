@@ -78,7 +78,8 @@ th {
 
 .contnav {
   width: 100%;
-  border-bottom: 7px solid #f8851a;
+  border-bottom: 7px solid #000000;
+  opacity:90%;
   background-color: #ffffff;
 }
 
