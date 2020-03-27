@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from "../components/Card";
+// import Card from "../components/Card";
 
 
 class Contacts extends Component {
@@ -35,7 +35,7 @@ class Contacts extends Component {
   render() {
     const { status } = this.state;
     return (
-      <div>
+      <div style={{ paddingBottom: '10%' }}>
 
         <br />
         <br />
@@ -88,7 +88,7 @@ class Contacts extends Component {
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </form>
-              
+
             </div>
           </div>
 
