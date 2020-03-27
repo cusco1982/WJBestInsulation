@@ -36,7 +36,7 @@ export default class App extends Component {
 
 
           <Nav />
-
+          
           <div className="container-fluid">
             <Switch>
               <Route exact path="/" component={Main} />
