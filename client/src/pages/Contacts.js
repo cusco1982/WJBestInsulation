@@ -35,8 +35,8 @@ class Contacts extends Component {
   render() {
     const { status } = this.state;
     return (
-
       <div>
+
         <br />
         <br />
         <br />
@@ -49,8 +49,9 @@ class Contacts extends Component {
 
         <div className="row">
 
+
           <div className="left col-md-6">
-            <form
+            <form style={{ marginLeft: 'calc((100%-980px)* 0.5)' }}
               onSubmit={this.submitForm}
               action="https://formspree.io/xjvolkon"
               method="POST"
@@ -86,11 +87,35 @@ class Contacts extends Component {
             </form>
           </div>
 
+
           <div className="right col-md-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi aut aliquid! Similique, quis eos odio odit architecto temporibus omnis quae reprehenderit minus culpa, distinctio perferendis unde tempore laborum praesentium.
+
+            <div>
+              <h1>Head Office</h1>
+              <p>2 Nora Rd</p>
+              <p>Edison, NJ 08837</p>
+            </div>
+
+            <div>
+              <p>
+                WJBestInsulation@gmail.com
+              </p>
+              <p>
+                Tel: 732-423-9671
+              </p>
+              <p>
+                Fax: 123-456-7890
+              </p>
+            </div>
+
           </div>
 
+
+
         </div>
+
+
+
 
 
       </div>
