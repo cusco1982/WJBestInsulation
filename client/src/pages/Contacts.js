@@ -46,7 +46,7 @@ class Contacts extends Component {
 <br/>
 <br/>
 
-        <div className="card" style={{width:'500px'}}>
+        <div className="card">
           <form className='container'
             onSubmit={this.submitForm} style={{padding:'20px'}}
             action="https://formspree.io/xjvolkon"
