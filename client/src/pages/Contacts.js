@@ -51,47 +51,52 @@ class Contacts extends Component {
 
 
           <div className="left col-md-6">
-            <form style={{ marginLeft: 'calc((100%-980px)* 0.5)' }}
-              onSubmit={this.submitForm}
-              action="https://formspree.io/xjvolkon"
-              method="POST"
-            // enctype="multipart/form-data"
-            >
+            <div style={{ marginLeft: 'calc((100%-980px)* 0.5)' }}>
 
-              <label>Name:</label>
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
-              <br />
-              <input class='form-control' type="text" name="name" />
-              {/* <input type="text" name="company" />          */}
-              <br />
-              <label>Email:</label>
-              {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
-              <br />
-              <input class='form-control' type="email" name="email" />
-              {/* <input type="phone" name="phone" /> */}
-              <br />
-              <label>Subject:</label>
-              <br />
-              <input class='form-control' type="text" name="subject" />
-              <br />
-              <label>Message:</label>
-              <br />
-              <input class='form-control' type="textarea" name="message" />
-              <br />
-              <br />
-              {/* <br/>
-        <label>Your file:</label>
-        <input type="file" name="upload" /> */}
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
-            </form>
+              <h1>Contact Us</h1> <br />
+              <form
+                onSubmit={this.submitForm}
+                action="https://formspree.io/xjvolkon"
+                method="POST"
+              // enctype="multipart/form-data"
+              >
+
+                <label>Name:</label>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
+                <br />
+                <input class='form-control' type="text" name="name" />
+                {/* <input type="text" name="company" />          */}
+                <br />
+                <label>Email:</label>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
+                <br />
+                <input class='form-control' type="email" name="email" />
+                {/* <input type="phone" name="phone" /> */}
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input class='form-control' type="text" name="subject" />
+                <br />
+                <label>Message:</label>
+                <br />
+                <input class='form-control' type="textarea" name="message" />
+                <br />
+                <br />
+                {/* <br/>
+                <label>Your file:</label>
+                <input type="file" name="upload" /> */}
+                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              </form>
+              
+            </div>
           </div>
 
 
-          <div className="right col-md-6" style={{paddingLeft:'10%'}}>
+          <div className="right col-md-6" style={{ paddingLeft: '10%' }}>
 
-            <div style={{marginBottom:'60px'}}>
-              <h1 style={{marginBottom:'30px'}}>Head Office</h1>
+            <div style={{ marginBottom: '60px' }}>
+              <h1 style={{ marginBottom: '30px' }}>Head Office</h1>
               <p>2 Nora Rd</p>
               <p>Edison, NJ 08837</p>
             </div>
