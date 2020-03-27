@@ -88,10 +88,10 @@ class Contacts extends Component {
           </div>
 
 
-          <div className="right col-md-6">
+          <div className="right col-md-6" style={{paddingLeft:'10%'}}>
 
-            <div>
-              <h1>Head Office</h1>
+            <div style={{marginBottom:'60px'}}>
+              <h1 style={{marginBottom:'30px'}}>Head Office</h1>
               <p>2 Nora Rd</p>
               <p>Edison, NJ 08837</p>
             </div>
