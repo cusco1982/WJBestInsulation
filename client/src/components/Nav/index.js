@@ -15,7 +15,7 @@ function Nav() {
 <nav className="navbar navbar-expand-lg navbar-light navigator" >
 
 <Link className="navbar-brand navbrand animated slideInLeft slow" to="/">
-  <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo}/>
+  <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{height:"20px"}}/>
 </Link>
 
 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
