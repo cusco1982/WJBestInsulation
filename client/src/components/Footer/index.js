@@ -16,7 +16,7 @@ function Footer() {
 
                     <h3>GET IN TOUCH:</h3><br />
 
-                    <div className="row">
+                    <div className="row" style={{ height: '50%' }}>
                         <div className="left col-md-6">
                             <p>Tel: 732-423-9671</p>
                             <p>Fax: 732-423-9671</p>
@@ -28,20 +28,22 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className="row2">
+                    <div className="row2" style={{ paddingLeft: '40%', height: '40%' }}>
 
-                        <Link className="" to="/">
+                        <div className="social-media" style={{position:'absolute',bottom:0}}>
 
-                            <img id="logo" alt="Logo" src={logo} />
-                        </Link>
-                        
-                        <a href="">facebook</a>
-                        <a href="">linkedIn</a>
-                        <a href="">Instagram</a>
-                        <a href="">GoogleLink</a>
-                        <br/>
+                            <Link className="" to="/">
+
+                                {/* <img id="logo" alt="Logo" src={logo} /> */}
+                            </Link>
+
+                            <a href="">FB</a> &nbsp;
+                        <a href="">In</a> &nbsp;
+                        <a href="">iG</a> &nbsp;
+                        <a href="">GoogleLink</a> &nbsp;
                         <i class="fab fa-linkedin-in"></i>
 
+                        </div>
 
 
                     </div>
