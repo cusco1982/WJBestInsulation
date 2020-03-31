@@ -30,19 +30,20 @@ function Footer() {
 
                     <div className="row2" style={{ paddingLeft: '40%', height: '40%' }}>
 
-                        <div className="social-media" style={{position:'absolute',bottom:0}}>
+                        <div className="social-media" style={{ position: 'absolute', bottom: 0 }}>
 
-                            <Link className="" to="/">
-
+                            <Link className="fab fa-linkedin-in" to="/">
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
-                            </Link>
+                            </Link> &nbsp;
 
-                            <a href="">FB</a> &nbsp;
-                        <a href="">In</a> &nbsp;
-                        <a href="">iG</a> &nbsp;
-                        <a href="">GoogleLink</a> &nbsp;
-                        <i class="fab fa-linkedin-in"></i>
-
+                            <Link className="fa fa-facebook-official" to="/">
+                                {/* <img id="logo" alt="Logo" src={logo} /> */}
+                            </Link> &nbsp;
+                            
+                            <Link className="fa fa-instagram" to="/">
+                                {/* <img id="logo" alt="Logo" src={logo} /> */}
+                            </Link> &nbsp;
+                        
                         </div>
 
 
