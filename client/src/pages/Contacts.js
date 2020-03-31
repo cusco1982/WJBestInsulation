@@ -78,7 +78,7 @@ class Contacts extends Component {
                 <br />
                 <label>Message:</label>
                 <br />
-                <input class='form-control' type="textarea" name="message" />
+                <textarea class='form-control' type="textarea" name="message" />
                 <br />
                 <br />
                 {/* <br/>
