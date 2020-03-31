@@ -32,10 +32,6 @@ function Footer() {
 
                         <div className="social-media" style={{ position: 'absolute', bottom: 0 }}>
 
-                            <Link className="fab fa-linkedin-in" style={{fontSize:'24px'}} to="/">
-                                {/* <img id="logo" alt="Logo" src={logo} /> */}
-                            </Link> &nbsp;
-
                             <Link className="fa fa-facebook-official" style={{fontSize:'24px'}} to="/">
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
                             </Link> &nbsp;
@@ -44,6 +40,10 @@ function Footer() {
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
                             </Link> &nbsp;
                         
+                            <Link className="fab fa-linkedin-in" style={{fontSize:'24px'}} to="/">
+                                {/* <img id="logo" alt="Logo" src={logo} /> */}
+                            </Link> &nbsp;
+
                         </div>
 
 
