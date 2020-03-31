@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import logo from "../../images/logo.jpg";
+import logo from "../../images/facebooklogo.png";
 import "./style.css";
 
 
@@ -31,8 +31,8 @@ function Footer() {
                     <div className="row2">
 
                         <Link className="" to="/">
-                        hello
-                            {/* <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} /> */}
+
+                            <img id="logo" alt="Logo" src={logo} />
                         </Link>
                         
                         <a href="">facebook</a>
