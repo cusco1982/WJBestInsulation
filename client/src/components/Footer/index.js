@@ -7,17 +7,21 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div className="footer-container" id="footer-container">
+        <div className="footer" id="footer">
 
-            <div className="row1">
+            <div className="row">
 
+                <div className='left col-md-6'>
+                    Hello
+                </div>
 
-                <div>
+                <div class='right col-md-6'>
                     <p>© 2019 WJ Best Insulation, LLC <a href="">Privacy Policy</a> | <a href="">Legal</a></p>
                 </div>
 
 
             </div>
+
 
         </div>
     );
