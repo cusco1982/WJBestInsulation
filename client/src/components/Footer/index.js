@@ -28,19 +28,21 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className="row2" style={{ paddingLeft: '40%', height: '40%' }}>
+                    <div className="row2" style={{ paddingLeft:'3%',height: '40%' }}>
 
                         <div className="social-media" style={{ position: 'absolute', bottom: 0 }}>
 
-                            <Link className="fa fa-facebook-official" style={{fontSize:'24px'}} to="/">
+                            © 2020 WJ Best Insulation LLC. All Rights Reserved. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                            <Link className="fa fa-facebook-official" style={{ fontSize: '24px' }} to="/">
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
                             </Link> &nbsp;
-                            
-                            <Link className="fa fa-instagram" style={{fontSize:'24px'}} to="/">
+
+                            <Link className="fa fa-instagram" style={{ fontSize: '24px' }} to="/">
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
                             </Link> &nbsp;
-                        
-                            <Link className="fab fa-linkedin-in" style={{fontSize:'24px'}} to="/">
+
+                            <Link className="fab fa-linkedin-in" style={{ fontSize: '24px' }} to="/">
                                 {/* <img id="logo" alt="Logo" src={logo} /> */}
                             </Link> &nbsp;
 
