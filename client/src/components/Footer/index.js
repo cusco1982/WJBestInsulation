@@ -12,11 +12,29 @@ function Footer() {
             <div className="row">
 
                 <div className='left col-md-6'>
-                    Hello
+                    <h3>GET IN TOUCH:</h3>
+                    <p>Tel: 732-423-9671</p>
+                    <p>Email: WJBestInsulation@gmail.com</p>
                 </div>
 
+
                 <div class='right col-md-6'>
-                    <p>© 2019 WJ Best Insulation, LLC <a href="">Privacy Policy</a> | <a href="">Legal</a></p>
+
+                    <div className="row">
+
+                    <div className="left col-md-6">
+                    <label>Contact Us:</label>
+                    </div>
+
+                    <div className="right col-md-6">
+                    <label htmlFor="textarea">Enter Your Message *</label>
+                    </div>
+
+
+
+
+                    </div>
+
                 </div>
 
 
