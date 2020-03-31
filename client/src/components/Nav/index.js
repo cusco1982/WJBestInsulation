@@ -25,24 +25,26 @@ function Nav() {
 
           <div style={{ paddingTop: '40px' }} className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mr-auto animated slideInRight slow">
+
               <li className="nav-item active">
                 <Link className="nav-link" to="/">HOME</Link>
               </li>
+
               <li className="nav-item">
-                <Link className="nav-link" to="/properties">PROPERTIES</Link>
+                <Link className="nav-link" to="/properties">Services</Link>
               </li>
 
               {/* <li className="nav-item">
-      <Link className="nav-link" to="/tenants">TENANTS</Link>
-    </li> */}
+                <Link className="nav-link" to="/properties">PROPERTIES</Link>
+              </li> */}
 
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact Us</Link>
-              </li>
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/tenants">TENANTS</Link>
+              </li> */}
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/tenants">LOGIN</Link>
-              </li>
+              </li> */}
 
               {/* <li className="nav-item">
                 <Link className="nav-link" to="/projects">PROJECTS</Link>
@@ -50,6 +52,10 @@ function Nav() {
 
               <li className="nav-item">
                 <Link className="nav-link" to="/projects">Portfolio</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">Contact Us</Link>
               </li>
 
             </ul>
