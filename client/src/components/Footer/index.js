@@ -30,12 +30,19 @@ function Footer() {
 
                     <div className="row2">
 
-                    <a href="">facebook</a>
-                    <a href="">linkedIn</a>
-                    <a href="">Instagram</a>
-                    <a href="">GoogleLink</a>
+                        <Link className="" to="/">
+                        hello
+                            {/* <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} /> */}
+                        </Link>
+                        
+                        <a href="">facebook</a>
+                        <a href="">linkedIn</a>
+                        <a href="">Instagram</a>
+                        <a href="">GoogleLink</a>
+                        <br/>
+                        <i class="fab fa-linkedin-in"></i>
 
-                    
+
 
                     </div>
 
