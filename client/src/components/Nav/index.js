@@ -14,7 +14,7 @@ function Nav() {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light navigator" >
 
-          <Link style={{paddingTop:'30px'}} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+          <Link style={{ paddingTop: '30px' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
             <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} />
           </Link>
 
@@ -23,7 +23,7 @@ function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div style={{paddingTop:'40px'}} className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div style={{ paddingTop: '40px' }} className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mr-auto animated slideInRight slow">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">HOME</Link>
@@ -44,8 +44,12 @@ function Nav() {
                 <Link className="nav-link" to="/tenants">LOGIN</Link>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/projects">PROJECTS</Link>
+              </li> */}
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/projects">Portfolio</Link>
               </li>
 
             </ul>
