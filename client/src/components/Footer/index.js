@@ -22,13 +22,37 @@ function Footer() {
 
                     <div className="row">
 
-                    <div className="left col-md-6">
-                    <label>Contact Us:</label>
-                    </div>
+                    <form
+                // onSubmit={this.submitForm}
+                action="https://formspree.io/xjvolkon"
+                method="POST"
+              // enctype="multipart/form-data"
+              >
 
-                    <div className="right col-md-6">
-                    <label htmlFor="textarea">Enter Your Message *</label>
-                    </div>
+                <label>Name:</label>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Company:</label> */}
+                <br />
+                <input class='form-control' type="text" name="name" />
+                {/* <input type="text" name="company" />          */}
+                <br />
+                <label>Email:</label>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Phone:</label> */}
+                <br />
+                <input class='form-control' type="email" name="email" />
+                {/* <input type="phone" name="phone" /> */}
+                <br />
+                <label>Message:</label>
+                <br />
+                <textarea class='form-control' type="textarea" name="message" />
+                <br />
+                <br />
+                {/* <br/>
+                <label>Your file:</label>
+                <input type="file" name="upload" /> */}
+                {/* {status === "SUCCESS" ? <p>Thanks!</p> :  */}
+                <button>Submit</button>
+                {/* {status === "ERROR" && <p>Ooops! There was an error.</p>} */}
+              </form>
 
 
 
