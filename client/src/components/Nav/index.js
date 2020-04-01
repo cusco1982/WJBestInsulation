@@ -12,15 +12,16 @@ function Nav() {
   return (
 
     <div className="container-fluid contnav" id="contnav">
-      <div className="container">
+      <div className="">
         <nav className="navbar navbar-expand-lg navbar-light navigator" >
 
-          <Link style={{ paddingTop: '15px', float:'left' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+          <Link style={{ paddingTop: '15px', paddingLeft:'10%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
             <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logosmiley} style={{ height: '30%', width: '30%' }} />
           </Link>
 
-          <Link style={{ paddingTop: '30px' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
-            <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} />
+          <Link style={{ paddingTop: '30px', fontSize:'250%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+            {/* <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} /> */}
+            WJ Best Insulation
           </Link>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
