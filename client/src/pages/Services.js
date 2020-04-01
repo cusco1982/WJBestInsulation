@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 // import image4 from '../images/4.jpg';
 // import "../css/style.css";
 // import "./style.css";
-import logosmiley from "../images/logosmiley.png"
+import domino from "../images/domino-factory.jpg"
 
 
 // const API = {
@@ -68,11 +68,11 @@ class Services extends Component {
 
     render() {
         return (
-            <div style={{ paddingTop: '10%', paddingBottom: '18%' }}>
+            <div>
 
-                <Link style={{ paddingTop: '15px', paddingLeft: '6.5%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
-                    <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logosmiley} style={{ height: '30%', width: '30%' }} />
-                </Link>
+
+                    <img id="logo" className="d-inline-block img-fluid slideInLeft" alt="Logo" src={domino} />
+
 
                 <div className="row services">
                     <ul>
