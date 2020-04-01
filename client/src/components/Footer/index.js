@@ -11,15 +11,16 @@ function Footer() {
 
             <div className="row">
 
-                <div className='left col-md-6'>
+                <div className='left col-md-6' style={{paddingLeft:'5%', paddingTop:'3%', textAlign:'center'}}>
 
 
                     <h3>GET IN TOUCH:</h3><br />
 
-                    <div className="row" style={{ height: '50%' }}>
+                    <div className="row" style={{ height: '50%', fontSize:'20px' }}>
                         <div className="left col-md-6">
                             <p>Tel: 732-423-9671</p>
                             <p>Fax: 732-423-9671</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: WJBestInsulation@gmail.com</p>
                             {/* <p>Email: WJBestInsulation@gmail.com</p> */}
                         </div>
                         <div className="right col-md-6">
@@ -28,7 +29,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className="row2" style={{ paddingLeft:'3%',height: '40%' }}>
+                    <div className="row2" style={{ paddingLeft:'10%',height: '40%' }}>
 
                         <div className="social-media" style={{ position: 'absolute', bottom: 0 }}>
 
