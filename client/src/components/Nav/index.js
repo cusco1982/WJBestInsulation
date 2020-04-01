@@ -33,12 +33,12 @@ function Nav() {
             <ul className="navbar-nav ml-auto mr-auto animated slideInRight slow">
 
               <li className="nav-item active">
-                <Link className="nav-link" to="/">HOME</Link>
-              </li>
+                <Link style={{fontSize:'130%'}} className="nav-link" to="/">HOME</Link>
+              </li> &nbsp;&nbsp;&nbsp;&nbsp;
 
               <li className="nav-item">
-                <Link className="nav-link" to="/properties">Services</Link>
-              </li>
+                <Link style={{fontSize:'130%'}} className="nav-link" to="/services">SERVICES</Link>
+              </li> &nbsp;&nbsp;&nbsp;&nbsp;
 
               {/* <li className="nav-item">
                 <Link className="nav-link" to="/properties">PROPERTIES</Link>
@@ -57,11 +57,11 @@ function Nav() {
               </li> */}
 
               <li className="nav-item">
-                <Link className="nav-link" to="/projects">Portfolio</Link>
-              </li>
+                <Link style={{fontSize:'130%'}} className="nav-link" to="/projects">PROJECTS</Link>
+              </li> &nbsp;&nbsp;&nbsp;&nbsp;
 
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact Us</Link>
+                <Link style={{fontSize:'130%'}} className="nav-link" to="/contact">CONTACT US</Link>
               </li>
 
             </ul>
