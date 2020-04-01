@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 // import CardMain from "../components/CardMain";
 // import video from "../images/video.mp4";
 // import image1 from '../images/1.jpg';
@@ -7,7 +8,7 @@ import React, { Component } from "react";
 // import image4 from '../images/4.jpg';
 // import "../css/style.css";
 // import "./style.css";
-
+import logosmiley from "../images/logosmiley.png"
 
 
 // const API = {
@@ -68,6 +69,10 @@ class Services extends Component {
     render() {
         return (
             <div style={{ paddingTop: '10%', paddingBottom: '18%' }}>
+
+                <Link style={{ paddingTop: '15px', paddingLeft: '6.5%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+                    <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logosmiley} style={{ height: '30%', width: '30%' }} />
+                </Link>
 
                 <div className="row services">
                     <ul>
