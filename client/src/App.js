@@ -10,6 +10,7 @@ import Tenant from "./pages/Tenant";
 import Register from "./pages/Register";
 import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
+import Services from "./pages/Services";
 
 
 // import Profile from './components/Profile';
@@ -21,6 +22,8 @@ import Projects from "./pages/Projects";
 
 
 import "./css/style.css";
+
+// nav scrolldown js
 import "./css/index.js";
 // import "./components/Footer/style.css";
 
@@ -36,16 +39,17 @@ export default class App extends Component {
 
 
           <Nav />
-          
+
           <div className="container-fluid">
             <Switch>
               <Route exact path="/" component={Main} />
-              <Route exact path="/properties" component={Properties} />
-              <Route exact path="/Tenants" component={Tenants} />
+              {/* <Route exact path="/properties" component={Properties} /> */}
+              <Route exact path="/services" component={Services} />
+              {/* <Route exact path="/Tenants" component={Tenants} /> */}
               <Route exact path="/Contact" component={Contacts} />
-              <Route exact path="/Admin" component={Admin} />
-              <Route exact path="/Tenant" component={Tenant} />
-              <Route exact path="/Register" component={Register} />
+              {/* <Route exact path="/Admin" component={Admin} /> */}
+              {/* <Route exact path="/Tenant" component={Tenant} /> */}
+              {/* <Route exact path="/Register" component={Register} /> */}
               <Route exact path="/Projects" component={Projects} />
               {/* exact path = "*" component={unknown} */}
 
