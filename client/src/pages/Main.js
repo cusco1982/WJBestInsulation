@@ -50,11 +50,11 @@ class Main extends Component {
   // }
 
   // loadAppart = () => {
-  // API.getAppart()
-  // .then(res =>
-  //   this.setState({ appartments: res.data })
-  // )
-  // .catch(err => console.log(err));
+    // API.getAppart()
+    // .then(res =>
+    //   this.setState({ appartments: res.data })
+    // )
+    // .catch(err => console.log(err));
 
   //   const appartments = API.getAppart()
 
@@ -80,12 +80,12 @@ class Main extends Component {
 
             <div className="row animated fadeInDown delay-1s" id="welcome-message">
               <div className="col-md-12 search">
-                <h1 className="htitle">Welcome to Advanced Property Management</h1>
+                <h1 className="htitle">Welcome to WJ Best Insulation</h1>
               </div>
             </div>
 
             <div id="company-info">
-              <p style={{ textAlign: "center", fontSize: "35px", width: "80%", transform: "translate(10%, 0)" }}><strong>
+              <p style={{ textAlign: "center", fontSize:"35px", width:"80%",transform: "translate(10%, 0)" }}><strong>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam exercitationem unde totam officia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ad iusto recusandae tempore quos. Ratione fuga nam eum autem. Consectetur!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, vel.
            </strong> </p>
             </div>
@@ -93,9 +93,9 @@ class Main extends Component {
 
 
             {/* <div className="content"> */}
-            {/* <h3 className="hed3">Featured properties</h3> */}
+              {/* <h3 className="hed3">Featured properties</h3> */}
 
-            {/* <div className="row justify-content-center">
+              {/* <div className="row justify-content-center">
 
                 {this.state.appartments.map(appartment => {
                   return <CardMain image={appartment.image} title={appartment.title} open={this.open} />
@@ -118,11 +118,11 @@ class Main extends Component {
 
         </div> */}
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
       </div>
 
     );
