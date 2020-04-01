@@ -67,21 +67,23 @@ class Services extends Component {
 
     render() {
         return (
-            <div style={{paddingTop:'10%', paddingBottom:'18%'}}>
-                <div className="services">
+            <div style={{ paddingTop: '10%', paddingBottom: '18%' }}>
 
-                    <h1>List of services</h1>
-
+                <div className="row services">
                     <ul>
+                        <h1>List of services</h1>
                         <li>1</li>
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
                         <li>5</li>
                     </ul>
-
-
                 </div>
+
+                <div className="row2">
+                    images going by area located on bottom middle of screen
+                </div>
+
             </div>
 
         );
