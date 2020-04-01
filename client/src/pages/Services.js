@@ -30,50 +30,61 @@ import React, { Component } from "react";
 
 
 class Services extends Component {
-  // state = {
-  //   appartments: [],
+    // state = {
+    //   appartments: [],
 
-  // };
+    // };
 
-  // open = () => {
-  //   let path = `/Contact`;
-  //   this.props.history.push(path);
-  // }
+    // open = () => {
+    //   let path = `/Contact`;
+    //   this.props.history.push(path);
+    // }
 
-  // close = (event) => {
-  //   if (event) event.preventDefault();
-  //   this.setState({ showModal: false });
-  // }
+    // close = (event) => {
+    //   if (event) event.preventDefault();
+    //   this.setState({ showModal: false });
+    // }
 
-  // componentDidMount() {
-  //   this.loadAppart();
-  // }
+    // componentDidMount() {
+    //   this.loadAppart();
+    // }
 
-  // loadAppart = () => {
+    // loadAppart = () => {
     // API.getAppart()
     // .then(res =>
     //   this.setState({ appartments: res.data })
     // )
     // .catch(err => console.log(err));
 
-  //   const appartments = API.getAppart()
+    //   const appartments = API.getAppart()
 
-  //   this.setState({ appartments: appartments })
+    //   this.setState({ appartments: appartments })
 
-  // };
-
-
+    // };
 
 
-  render() {
-    return (
-      <div>
 
 
-      
-      </div>
+    render() {
+        return (
+            <div style={{paddingTop:'10%', paddingBottom:'18%'}}>
+                <div className="services">
 
-    );
-  }
+                    <h1>List of services</h1>
+
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        );
+    }
 }
 export default Services;
