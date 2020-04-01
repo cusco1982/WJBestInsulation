@@ -174,10 +174,9 @@ th {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: 9000px;
+  width: auto;
   height: 1100px;
   z-index: -100;
-  transform: translate(-38%, -10%);
 }
 
 .content {
