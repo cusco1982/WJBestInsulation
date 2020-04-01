@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/navlogo.png";
 import "./style.css";
+import logosmiley from "../../images/logosmiley.png"
 
 
 
@@ -13,6 +14,10 @@ function Nav() {
     <div className="container-fluid contnav" id="contnav">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light navigator" >
+
+          <Link style={{ paddingTop: '15px', float:'left' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+            <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logosmiley} style={{ height: '30%', width: '30%' }} />
+          </Link>
 
           <Link style={{ paddingTop: '30px' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
             <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logo} style={{ height: "20px" }} />

@@ -57,7 +57,7 @@ function Footer() {
 
                 <div class='right col-md-6'>
 
-                    <div className="row">
+                    <div className="row" style={{float:'right', paddingRight:'10%'}}>
 
                         <form
                             // onSubmit={this.submitForm}
