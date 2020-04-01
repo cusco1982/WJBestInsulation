@@ -15,7 +15,7 @@ function Nav() {
       <div className="">
         <nav className="navbar navbar-expand-lg navbar-light navigator" >
 
-          <Link style={{ paddingTop: '15px', paddingLeft:'10%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
+          <Link style={{ paddingTop: '15px', paddingLeft:'6.5%' }} className="navbar-brand navbrand animated slideInLeft slow" to="/">
             <img id="logo" className="d-inline-block img-fluid" alt="Logo" src={logosmiley} style={{ height: '30%', width: '30%' }} />
           </Link>
 

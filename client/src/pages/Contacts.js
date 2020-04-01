@@ -34,9 +34,8 @@ class Contacts extends Component {
   render() {
     const { status } = this.state;
     return (
-      <div style={{ paddingBottom: '10%' }}>
+      <div style={{ paddingBottom: '5%' }}>
 
-        <br />
         <br />
         <br />
         <br />
