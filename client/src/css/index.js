@@ -9,5 +9,3 @@ window.onscroll = function() {
   }
   prevScrollpos=currentScrollpos;
 }
-
-
