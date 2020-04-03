@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../css/style.css";
 // import "./style.css";
 import domino from "../images/domino-factory.jpg"
-import "./css/index.js";
+import "../css/index.js";
 
 
 
