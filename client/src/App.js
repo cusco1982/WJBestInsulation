@@ -24,7 +24,7 @@ import Services from "./pages/Services";
 import "./css/style.css";
 
 // nav scrolldown js
-import "./css/index.js";
+// import "./css/index.js";
 // import "./components/Footer/style.css";
 
 
