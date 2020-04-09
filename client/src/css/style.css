@@ -1,5 +1,5 @@
 div{
-  background: black;
+  background: linear-gradient(-45deg, black, blue, white);
 }
 
 h2 {
